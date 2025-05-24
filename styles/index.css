@@ -4,6 +4,29 @@
 
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
   img[loading="lazy"] {
-    clip-path: inset(0.6px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
   }
 }
+
+@font-face {
+  font-family: 'mainFont';
+  src: url('/fonts/HKGroteskWide-ExtraBold') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'headerFont';
+  src: url('/fonts/HKGroteskWide-Regular') format('opentype');
+  font-weight: normal;
+}
+h1 {
+  font-family: 'headerFont';
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+body {
+  font-family: 'mainFont';
+}
+

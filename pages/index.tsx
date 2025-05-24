@@ -58,8 +58,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
             <Logo />
-            <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              2022 Event Photos
+            <h1 className="mt-8 mb-4 font-bold uppercase tracking-widest font-header">
+              The
+              <br />
+              Quintessential
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               Our incredible Next.js community got together in San Francisco for
